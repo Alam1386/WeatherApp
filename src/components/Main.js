@@ -7,8 +7,8 @@ import Content from "./Layout/Content";
 import WeatherSearch from "./WeatherSearch";
 import WeatherData from "./WeatherData";
 import Error from "./Error";
-const API_KEY = "db4f6785a19d1b1dfc3e54dc4f3b86a3";
 function Main() {
+  const API_KEY = "";
   const [weather, setWeather] = useState();
   const [city, setCity] = useState(null);
   const [error, setError] = useState(null);
